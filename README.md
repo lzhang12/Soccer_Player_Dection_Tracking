@@ -1,4 +1,4 @@
-# Soccer_Player_Dection_Tracking
+# Soccer Player Dection and Tracking
 This repo is intended to build a program based on state-of-art in-time objection detection algorithm to detect and track players in a soccer game.
 
 **Some General Information**
@@ -21,6 +21,5 @@ avaiable. This repo mainly aims at this specific problem.
   - develop tracking algorithm
   
 **Task to be done**
+- write a new `yolo_model.py` file to perform batch prediction and in-time video prediction
 - modify `decode_netout` to give different object thresholds for football and player
-- modify `do_nms` to detect overlapped players.
-- add comments for functions in `yolo/yolo_model.py`.
